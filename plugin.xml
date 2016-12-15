@@ -1,0 +1,40 @@
+<!--
+ ezAR Cordova plugin manifest
+ ezartech.com
+-->
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  id="com.ezartech.experimental.videoframes"
+	  version="0.0.1">
+	  
+	<name>ezAR Video Frames</name>
+	<description>
+	</description>
+	<keywords>augmented reality,video preview,overlay,computer vision</keywords>
+	<license>modified MIT License, see http://ezartech.com/ezarstartupkit-license</license>
+
+	<!-- web api -->
+	<js-module src="www/videoframes.js" name="videoframes">
+		<merges target="ezar" />
+	</js-module>
+	
+	<!-- ios -->
+	<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="videoframes">
+				<param name="ios-package" value="CDVezARVideoFrames"/>
+			</feature>
+		</config-file>
+
+		<header-file src="src/ios/CDVezARVideoFrames.h" />
+		<source-file src="src/ios/CDVezARVideoFrames.m" />
+	
+		<framework src="UIKit.framework" />
+		<framework src="Foundation.framework" />
+		<framework src="AVFoundation.framework" />
+		<framework src="CoreImage.framework" />
+		<framework src="CoreVideo.framework" />
+
+	</platform>
+   
+</plugin>
