@@ -1,4 +1,4 @@
-#ezAR VideoStream Cordova Plugin
+#ezAR VideoFrames Cordova Plugin
 This experimental plugin produces video frames from the camera preview created by the VideoOverlay 
 plugin. The video frames are returned to your app in the form of JPEG images encoded as data url 
 via a callback you provide. You must includes the VideoOverlay plugin in your app and start a 

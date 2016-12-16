@@ -1,4 +1,4 @@
-#ezAR VideoOverlay Plugin Release Notes
+#ezAR VideoFrames Plugin Release Notes
 
 ##0.0.1 (201612150)
 1. Prototype-1 release that demonstrates basic api and functionality.
