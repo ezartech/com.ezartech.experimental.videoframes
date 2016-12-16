@@ -125,6 +125,7 @@ function fillCanvas() {
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
 
+/* experimental hacks - ignore
 function jackCanvas() {
     var imageData = ctx.getImageData(0,0,50,50);
     var data = imageData.data;
@@ -146,17 +147,18 @@ function jackCanvas1() {
       data[i + 2] = 255; // blue
       data[i + 3] = 100;
     }
-    /*
-    for (var row=0; row < 100; row++) {
-        for (var col=0; col < 100; col++) {
-            var pixelIdx = row * imageData.width*4 + col*4;
-            data[pixelIdx]   = 100;
-            data[pixelIdx+1] = 0;
-            data[pixelIdx+2] = 0;
-            data[pixelIdx+3] = 1.0;
-        }
-    }
-    */
+    
+    // for (var row=0; row < 100; row++) {
+    //     for (var col=0; col < 100; col++) {
+    //         var pixelIdx = row * imageData.width*4 + col*4;
+    //         data[pixelIdx]   = 100;
+    //         data[pixelIdx+1] = 0;
+    //         data[pixelIdx+2] = 0;
+    //         data[pixelIdx+3] = 1.0;
+    //     }
+    // }
+    
     //imageData.data = data;
     ctx.putImageData(imageData,0,0);
 }
+*/
