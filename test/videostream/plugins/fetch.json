@@ -1,0 +1,10 @@
+{
+    "com.ezartech.ezar.videooverlay": {
+        "source": {
+            "type": "local",
+            "path": "../../../com.ezartech.ezar.videoOverlay"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

@@ -1,0 +1,102 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+  
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+    background-color: transparent;
+}
+
+h1 {
+    color: orange;
+    font-size:36px;
+    font-weight:normal;
+    margin-top:50px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+#myimg {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border: 1px solid darksalmon;
+}
+
+.button {
+    color: orange;
+    background-color: blue;
+    font-size:36px;
+    font-weight:normal;
+    position: absolute;
+    left: 20px;
+}
+
+#btn1 {
+    top: 350px; 
+}
+
+#btn2 {
+    top: 400px;
+}
+
+#btn3 {
+    top: 450px;
+}
+
+#mycanvas {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#box {
+     position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100px;
+     height: 100px;
+     background-color: transparent;
+     border: 2px solid darksalmon;
+}
