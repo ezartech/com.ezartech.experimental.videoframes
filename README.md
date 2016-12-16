@@ -13,7 +13,7 @@ The simplest ezAR application involves adding the VideoOverlay
 and VideoStream plugins to your Corodva project using the Cordova CLI
 
         cordova plugin add pathtoezar/com.ezartech.ezar.videooverlay
-        cordova plugin add pathtoezar/com.ezartech.experimental.videostream
+        cordova plugin add pathtoezar/com.ezartech.experimental.videoframes
 
 Next in your Cordova JavaScript deviceready handler include the following  
 JavaScript snippet to initialize the VideoOverlay plugin and activate the  
